@@ -12,3 +12,7 @@ stack
 * express
 * passport
 * socket.io
+
+
+element to take in view
+* i18n
