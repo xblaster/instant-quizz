@@ -16,3 +16,4 @@ stack
 
 element to take in view
 * i18n
+* qr code scan in PWA (if needed)
