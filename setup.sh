@@ -1,5 +1,3 @@
-npm -i @angular/cli
-
-cd front && npm i
-cd ..
+sudo npm i -g @angular/cli
+sudo npm i -g @nrwl/schematics
 
