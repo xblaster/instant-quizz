@@ -8,10 +8,14 @@
     "nx.json": "*"
   },
   "projects": {
-    "api-api": {
-      "tags": [
-        "api"
-      ]
+    "front": {
+      "tags": []
+    },
+    "front-e2e": {
+      "tags": []
+    },
+    "api": {
+      "tags": []
     }
   }
 }
