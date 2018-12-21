@@ -1,12 +1,26 @@
-div {
+#main {
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    
     background-color: #333;
     color: white;
-    padding: 5em;
-    font-size: 300%;
+    padding-top: 5em;
+    padding-right: 5em;
+    padding-left: 5em;
+
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 400%;
+    text-align: center;
+}
+
+.hero {
+    margin: auto;
+    font-size: 250%;
+    margin: 0.2em;
+    padding: 1em;
 }

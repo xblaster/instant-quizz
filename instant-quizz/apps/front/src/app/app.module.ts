@@ -6,6 +6,8 @@ import { NxModule } from '@nrwl/nx';
 import { RouterModule } from '@angular/router';
 import { LandingComponent } from './landing/landing.component';
 import {MatButtonModule} from '@angular/material/button';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -14,6 +16,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     BrowserModule,
     MatButtonModule,
     BrowserAnimationsModule,
+    MatGridListModule,
+    
     NxModule.forRoot(),
     RouterModule.forRoot([
       {path : '', component: LandingComponent}
